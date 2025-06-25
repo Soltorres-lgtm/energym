@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Energym S.R.L.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #FFBE00;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: #FFBE00;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+    }
+    .hero {
+      background-color: #262626;
+      padding: 3em;
+      text-align: center;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 2em;
+    }
+    img.qr-code {
+      width: 150px;
+      height: 150px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1em;
+    }
+    .gallery img {
+      max-width: 300px;
+      height: auto;
+      border: 3px solid #FFBE00;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Energym S.R.L.</h1>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="inicio" class="hero">
+    <h2>Bienvenido a Energym</h2>
+    <p>Donde la energía y el bienestar se encuentran.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Entrenamiento personalizado</li>
+      <li>Clases grupales</li>
+      <li>Fisioterapia y nutrición</li>
+      <li>Planes corporativos</li>
+    </ul>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="https://source.unsplash.com/featured/?gym,1" alt="Imagen del gimnasio 1">
+      <img src="https://source.unsplash.com/featured/?gym,2" alt="Imagen del gimnasio 2">
+      <img src="https://source.unsplash.com/featured/?gym,3" alt="Imagen del gimnasio 3">
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>📍 Villa Morra, Asunción<br>📞 +595 971 123456<br>📧 contacto@energym.com.py</p>
+  </section>
+
+  <div class="qr">
+    <h3>Escaneá para visitar nuestra web:</h3>
+    <img class="qr-code" src="https://api.qrserver.com/v1/create-qr-code/?data=https://energym.com.py&size=150x150" alt="QR Energym" />
+    <p><small>https://energym.com.py</small></p>
+  </div>
+
+  <footer>
+    © 2025 Energym S.R.L. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
